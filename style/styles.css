@@ -230,7 +230,7 @@ h1 {
 iframe {
     width: 50%;
     max-width: 50%;
-    height: auto;
+    height: 500px;
     border-radius: 10px;
     border: none;
 }
@@ -693,6 +693,7 @@ footer {
     iframe{
         width: 80%;
         max-width: 80%;
+        height: auto;
     }
 
     .swiss-stage-container th,
