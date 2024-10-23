@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/styles.css">
+    <title>Best Plays</title>
+    <link rel="icon" href="images/web-logo.png" type="image/png">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header class="nav">
+        <div class="nav-left">
+            <a href="index.html">
+                <img class="logo-icon" alt="Riot Games Logo" src="images/logo1.png">
+            </a>
+            <!-- Regular Desktop Navigation -->
+            <nav class="nav-links">
+                <a class="nav-item" href="index.html">HOME</a>
+                <a class="nav-item" href="brackets.html">BRACKETS</a>
+                <a class="nav-item" href="prizepool.html">PRIZEPOOL</a>
+                <a class="nav-item" href="plays.html">PLAYS</a>
+            </nav>
+
+            <!-- Hamburger Menu Toggle Button for Mobile -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Links -->
+        <nav class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li><a class="nav__link" href="index.html">Home</a></li>
+                <li><a class="nav__link" href="brackets.html">Brackets</a></li>
+                <li><a class="nav__link" href="prizepool.html">Prizepool</a></li>
+                <li><a class="nav__link" href="plays.html">Plays</a></li>
+            </ul>
+
+            <!-- Close Button for Mobile Menu -->
+            <div class="nav__close" id="nav-close">
+                <i class="ri-close-large-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <div class="best-play">
+        <h1>Best Plays <br> Worlds 2023</h1>
+    
+        <div class="play-rank">Play-ins Highlights</div>
+        <video src="videos/plays-playin.mp4" controls poster="videos/plays-playin-thumb.jpg"></video>
+        <div class="play-description">
+            The Play-ins stage of Worlds 2023 had some thrilling moments where underdog teams fought hard to make a mark. 
+            From stunning upsets to perfectly coordinated teamfights, this video captures the top plays from the Play-ins.
+        </div>
+    
+        <div class="play-rank">Swiss Stage Highlights</div>
+        <video src="videos/plays-swiss.mp4" controls poster="videos/plays-swiss-thumb.jpg"></video>
+        <div class="play-description">
+            The Swiss Stage delivered intense action as teams faced off in a battle for survival. Watch as the top contenders
+            showcase their skills with incredible outplays, clutch moments, and game-changing plays.
+        </div>
+    
+        <div class="play-rank">Quarterfinals Highlights</div>
+        <video src="videos/plays-quarter.mp4" controls poster="videos/plays-quarter-thumb.jpg"></video>
+        <div class="play-description">
+            The Quarterfinals were nothing short of legendary, with every team bringing their best. This stage saw some of
+            the most jaw-dropping plays, including insane mechanical outplays and brilliant team coordination.
+        </div>
+    
+        <div class="play-rank">Semifinals Highlights</div>
+        <video src="videos/plays-semis.mp4" controls poster="videos/plays-semis-thumb.jpg"></video>
+        <div class="play-description">
+            The Semifinals had the crowd on the edge of their seats. The best of the best went head-to-head in epic battles
+            that showcased both strategic depth and high-pressure mechanical prowess. These plays define the very essence
+            of Worlds competition.
+        </div>
+    
+        <div class="play-rank">Finals Highlights</div>
+        <video src="videos/plays-finals.mp4" controls poster="videos/plays-finals-thumb.jpg"></video>
+        <div class="play-description">
+            The Finals brought us the most iconic plays of Worlds 2023. With everything on the line, teams pulled off
+            breathtaking plays that will go down in history. Watch as the champions make their final stand in the most
+            important matches of the year.
+        </div>
+    </div>
+    
+
+    <div class="feedback-form-container">
+        <h2>Website Feedback</h2>
+        <form action="#" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="feedback">Your Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="5" placeholder="Tell us about your experience"
+                required></textarea>
+
+            <label for="rating">Rate your experience:</label>
+            <select id="rating" name="rating">
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="average">Average</option>
+                <option value="poor">Poor</option>
+            </select>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </div>
+    <div class="contact-us">
+        <h3>Contact Us</h3>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/1024px-2023_Facebook_icon.svg.png" alt="Facebook">
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="twitter">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/1024px-X_logo_2023.svg.png" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png" alt="Instagram">
+            </a>
+        </div>
+    </div>
+    
+
+
+
+
+
+    <!-- Footer -->
+    <footer>© 2024 Riot Games. All Rights Reserved.</footer>
+    <!-- JavaScript to handle mobile menu -->
+    <script src="script/script.js"></script>
+</body>
+
+</html>

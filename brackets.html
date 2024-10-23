@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/styles.css">
+    <title>Brackets</title>
+    <link rel="icon" href="images/web-logo.png" type="image/png">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header class="nav">
+        <div class="nav-left">
+            <a href="index.html">
+                <img class="logo-icon" alt="Riot Games Logo" src="images/logo1.png">
+            </a>
+            <!-- Regular Desktop Navigation -->
+            <nav class="nav-links">
+                <a class="nav-item" href="index.html">HOME</a>
+                <a class="nav-item" href="brackets.html">BRACKETS</a>
+                <a class="nav-item" href="prizepool.html">PRIZEPOOL</a>
+                <a class="nav-item" href="plays.html">PLAYS</a>
+            </nav>
+
+            <!-- Hamburger Menu Toggle Button for Mobile -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Links -->
+        <nav class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li><a class="nav__link" href="index.html">Home</a></li>
+                <li><a class="nav__link" href="brackets.html">Brackets</a></li>
+                <li><a class="nav__link" href="prizepool.html">Prizepool</a></li>
+                <li><a class="nav__link" href="plays.html">Plays</a></li>
+            </ul>
+
+            <!-- Close Button for Mobile Menu -->
+            <div class="nav__close" id="nav-close">
+                <i class="ri-close-large-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <div class="top-container">
+        <div class="header-note">
+            <p class="note">Note:</p>
+            <p class="world-new">For this Worlds tournament Riot introduced a Swiss Format which will be replacing
+                the Group Stage of previous years, and a new qualifying series to determine the last spot between 4th
+                Seed of Europe and North America</p>
+        </div>
+
+        
+        
+        <div class="jump-links">
+            <a href="#play-in" class="jump-link">Go to Play-inStage</a>
+            <a href="#swiss-stage" class="jump-link">Go to Swiss Stage</a>
+            <a href="#knock-out" class="jump-link">Go to Knockout Stage</a>
+            <div class="line-divider-mobile"></div>
+        </div>
+    </div>
+
+
+    <!-- Line Divider -->
+    <div class="line-divider"></div>
+
+    <div class="play-in-container" id="play-in">
+        <b class="play-in-stage-title">Play-in Stage</b>
+        <ul class="play-in-rule-list">
+            <li>Eight teams participate</li>
+            <li>Teams are drawn into two double-elimination brackets.</li>
+            <li>Matches are best of three</li>
+            <li>The upper bracket winner of one group will face the lower bracket winner of the other group</li>
+            <li>Matches are best of five</li>
+            <li>Winners of the best of fives advance to Stage 2</li>
+        </ul>
+        <img class="play-in-img" src="images/playin-stage.png" alt="Play-in Stage">
+    </div>
+
+    <!-- Line Divider -->
+    <div class="line-divider"></div>
+
+
+    <div class="swiss-stage-container" id="swiss-stage">
+        <b class="swiss-stage">Swiss Stage</b>
+        <div class="teams-participate-14-container">
+            <ul class="teams-participate-14-teams-pre">
+                <li class="teams-participate">16 teams participate</li>
+                <li class="teams-participate">14 teams prequalified for Swiss Stage + the 2 qualifiers of
+                    Play-In Stage</li>
+                <li class="teams-participate">Swiss-style format with five rounds</li>
+                <li class="teams-participate">Matchups will be drawn at the end of each round</li>
+                <li class="teams-participate">Teams with three wins advance to Stage 3, while teams with three
+                    losses are eliminated</li>
+                <li>Qualification and Elimination matches are best of three; all other matches are best of one
+                </li>
+            </ul>
+        </div>
+        <table>
+            <thead>
+                <tr class="black-font">
+                    <th>#</th>
+                    <th>Team</th>
+                    <th>Matches</th>
+                    <th>Games</th>
+                    <th>Round 1</th>
+                    <th>Round 2</th>
+                    <th>Round 3</th>
+                    <th>Round 4</th>
+                    <th>Round 5</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td><img src="images/team-logos/gen_g_logo.png" alt="Gen.G Esports" class="team-logo"> Gen.G
+                        Esports</td>
+                    <td>3-0</td>
+                    <td>4-0</td>
+                    <td><img src="images/team-logos/gam_esports_logo.png" alt="GAM Esports" class="team-logo">
+                        1:0
+                    </td>
+                    <td><img src="images/team-logos/t1_logo.png" alt="T1" class="team-logo"> 1:0</td>
+                    <td><img src="images/team-logos/g2_esports_logo.png" alt="G2 Esports" class="team-logo"> 2:0
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td><img src="images/team-logos/jd_gaming_logo.png" alt="JD Gaming" class="team-logo"> JD
+                        Gaming
+                    </td>
+                    <td>3-0</td>
+                    <td>4-1</td>
+                    <td><img src="images/team-logos/team_bds_logo.png" alt="Team BDS" class="team-logo"> 1:0
+                    </td>
+                    <td><img src="images/team-logos/bilibili_gaming_logo.png" alt="Bilibili Gaming" class="team-logo">
+                        1:0</td>
+                    <td><img src="images/team-logos/lng_esports_logo.png" alt="LNG Esports" class="team-logo">
+                        2:1
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td><img src="images/team-logos/lng_esports_logo.png" alt="LNG Esports" class="team-logo">
+                        LNG
+                        Esports</td>
+                    <td>3-1</td>
+                    <td>5-3</td>
+                    <td><img src="images/team-logos/fnatic_logo.png" alt="Fnatic" class="team-logo"> 1:0</td>
+                    <td><img src="images/team-logos/cloud9_logo.png" alt="Cloud9" class="team-logo"> 1:0</td>
+                    <td><img src="images/team-logos/jd_gaming_logo.png" alt="JD Gaming" class="team-logo"> 1:2
+                    </td>
+                    <td><img src="images/team-logos/kt_rolster_logo.png" alt="KT Rolster" class="team-logo"> 2:1
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td><img src="images/team-logos/nrg_logo.png" alt="NRG" class="team-logo"> NRG</td>
+                    <td>3-1</td>
+                    <td>4-1</td>
+                    <td><img src="images/team-logos/weibo_gaming_logo.png" alt="Weibo Gaming" class="team-logo">
+                        0:1
+                    </td>
+                    <td><img src="images/team-logos/team_liquid_logo.png" alt="Team Liquid" class="team-logo">
+                        1:0
+                    </td>
+                    <td><img src="images/team-logos/mad_lions_logo.png" alt="MAD Lions" class="team-logo"> 1:0
+                    </td>
+                    <td><img src="images/team-logos/g2_esports_logo.png" alt="G2 Esports" class="team-logo"> 2:0
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td><img src="images/team-logos/t1_logo.png" alt="T1" class="team-logo"> T1</td>
+                    <td>3-1</td>
+                    <td>4-1</td>
+                    <td><img src="images/team-logos/team_liquid_logo.png" alt="Team Liquid" class="team-logo">
+                        1:0
+                    </td>
+                    <td><img src="images/team-logos/gen_g_logo.png" alt="Gen.G Esports" class="team-logo"> 0:1
+                    </td>
+                    <td><img src="images/team-logos/cloud9_logo.png" alt="Cloud9" class="team-logo"> 1:0</td>
+                    <td><img src="images/team-logos/bilibili_gaming_logo.png" alt="Bilibili Gaming" class="team-logo">
+                        2:0</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td><img src="images/team-logos/bilibili_gaming_logo.png" alt="Bilibili Gaming" class="team-logo">
+                        Bilibili Gaming</td>
+                    <td>3-2</td>
+                    <td>4-4</td>
+                    <td><img src="images/team-logos/kt_rolster_logo.png" alt="KT Rolster" class="team-logo"> 1:0
+                    </td>
+                    <td><img src="images/team-logos/jd_gaming_logo.png" alt="JD Gaming" class="team-logo"> 0:1
+                    </td>
+                    <td><img src="images/team-logos/fnatic_logo.png" alt="Fnatic" class="team-logo"> 1:0</td>
+                    <td><img src="images/team-logos/t1_logo.png" alt="T1" class="team-logo"> 0:2</td>
+                    <td><img src="images/team-logos/g2_esports_logo.png" alt="G2 Esports" class="team-logo"> 2:1
+                    </td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td><img src="images/team-logos/kt_rolster_logo.png" alt="KT Rolster" class="team-logo"> KT
+                        Rolster</td>
+                    <td>3-2</td>
+                    <td>5-3</td>
+                    <td><img src="images/team-logos/bilibili_gaming_logo.png" alt="Bilibili Gaming" class="team-logo">
+                        0:1</td>
+                    <td><img src="images/team-logos/dplus_logo.png" alt="Dplus" class="team-logo"> 1:0</td>
+                    <td><img src="images/team-logos/weibo_gaming_logo.png" alt="Weibo Gaming" class="team-logo">
+                        1:0
+                    </td>
+                    <td><img src="images/team-logos/lng_esports_logo.png" alt="LNG Esports" class="team-logo">
+                        1:2
+                    </td>
+                    <td><img src="images/team-logos/dplus_logo.png" alt="Dplus" class="team-logo"> 2:0</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td><img src="images/team-logos/weibo_gaming_logo.png" alt="Weibo Gaming" class="team-logo">
+                        Weibo Gaming</td>
+                    <td>3-2</td>
+                    <td>5-3</td>
+                    <td><img src="images/team-logos/nrg_logo.png" alt="NRG" class="team-logo"> 1:0</td>
+                    <td><img src="images/team-logos/g2_esports_logo.png" alt="G2 Esports" class="team-logo"> 0:1
+                    </td>
+                    <td><img src="images/team-logos/kt_rolster_logo.png" alt="KT Rolster" class="team-logo"> 0:1
+                    </td>
+                    <td><img src="images/team-logos/mad_lions_logo.png" alt="MAD Lions" class="team-logo"> 2:0
+                    </td>
+                    <td><img src="images/team-logos/fnatic_logo.png" alt="Fnatic" class="team-logo"> 2:1</td>
+                </tr>
+                <tr>
+                    <td>9.</td>
+                    <td><img src="images/team-logos/dplus_logo.png" alt="Dplus" class="team-logo"> Dplus</td>
+                    <td>2-3</td>
+                    <td>4-4</td>
+                    <td><img src="images/team-logos/g2_esports_logo.png" alt="G2 Esports" class="team-logo"> 0:1
+                    </td>
+                    <td><img src="images/team-logos/kt_rolster_logo.png" alt="KT Rolster" class="team-logo"> 0:1
+                    </td>
+                    <td><img src="images/team-logos/team_bds_logo.png" alt="Team BDS" class="team-logo"> 2:0
+                    </td>
+                    <td><img src="images/team-logos/gam_esports_logo.png" alt="GAM Esports" class="team-logo">
+                        2:0
+                    </td>
+                    <td><img src="images/team-logos/kt_rolster_logo.png" alt="KT Rolster" class="team-logo"> 0:2
+                    </td>
+                </tr>
+                <tr>
+                    <td>9.</td>
+                    <td><img src="images/team-logos/fnatic_logo.png" alt="Fnatic" class="team-logo"> Fnatic</td>
+                    <td>2-3</td>
+                    <td>4-5</td>
+                    <td><img src="images/team-logos/lng_esports_logo.png" alt="LNG Esports" class="team-logo">
+                        0:1
+                    </td>
+                    <td><img src="images/team-logos/gam_esports_logo.png" alt="GAM Esports" class="team-logo">
+                        1:0
+                    </td>
+                    <td><img src="images/team-logos/bilibili_gaming_logo.png" alt="Bilibili Gaming" class="team-logo">
+                        0:1</td>
+                    <td><img src="images/team-logos/cloud9_logo.png" alt="Cloud9" class="team-logo"> 2:1</td>
+                    <td><img src="images/team-logos/weibo_gaming_logo.png" alt="Weibo Gaming" class="team-logo">
+                        1:2
+                    </td>
+                </tr>
+                <tr>
+                    <td>9.</td>
+                    <td><img src="images/team-logos/g2_esports_logo.png" alt="G2 Esports" class="team-logo"> G2
+                        Esports</td>
+                    <td>2-3</td>
+                    <td>3-6</td>
+                    <td><img src="images/team-logos/dplus_logo.png" alt="Dplus" class="team-logo"> 1:0</td>
+                    <td><img src="images/team-logos/weibo_gaming_logo.png" alt="Weibo Gaming" class="team-logo">
+                        1:0
+                    </td>
+                    <td><img src="images/team-logos/gen_g_logo.png" alt="Gen.G Esports" class="team-logo"> 0:2
+                    </td>
+                    <td><img src="images/team-logos/nrg_logo.png" alt="NRG" class="team-logo"> 0:2</td>
+                    <td><img src="images/team-logos/bilibili_gaming_logo.png" alt="Bilibili Gaming" class="team-logo">
+                        1:2</td>
+                </tr>
+                <tr>
+                    <td>12.</td>
+                    <td><img src="images/team-logos/cloud9_logo.png" alt="Cloud9" class="team-logo"> Cloud9</td>
+                    <td>1-3</td>
+                    <td>2-4</td>
+                    <td><img src="images/team-logos/mad_lions_logo.png" alt="MAD Lions" class="team-logo"> 1:0
+                    </td>
+                    <td><img src="images/team-logos/lng_esports_logo.png" alt="LNG Esports" class="team-logo">
+                        0:1
+                    </td>
+                    <td><img src="images/team-logos/t1_logo.png" alt="T1" class="team-logo"> 0:1</td>
+                    <td><img src="images/team-logos/fnatic_logo.png" alt="Fnatic" class="team-logo"> 1:2</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>12.</td>
+                    <td><img src="images/team-logos/gam_esports_logo.png" alt="GAM Esports" class="team-logo">
+                        GAM
+                        Esports</td>
+                    <td>1-3</td>
+                    <td>2-5</td>
+                    <td><img src="images/team-logos/gen_g_logo.png" alt="Gen.G Esports" class="team-logo"> 0:1
+                    </td>
+                    <td><img src="images/team-logos/fnatic_logo.png" alt="Fnatic" class="team-logo"> 0:1</td>
+                    <td><img src="images/team-logos/team_liquid_logo.png" alt="Team Liquid" class="team-logo">
+                        2:1
+                    </td>
+                    <td><img src="images/team-logos/dplus_logo.png" alt="Dplus" class="team-logo"> 0:2</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>12.</td>
+                    <td><img src="images/team-logos/mad_lions_logo.png" alt="MAD Lions" class="team-logo"> MAD
+                        Lions
+                    </td>
+                    <td>1-3</td>
+                    <td>1-4</td>
+                    <td><img src="images/team-logos/cloud9_logo.png" alt="Cloud9" class="team-logo"> 0:1</td>
+                    <td><img src="images/team-logos/team_bds_logo.png" alt="Team BDS" class="team-logo"> 1:0
+                    </td>
+                    <td><img src="images/team-logos/nrg_logo.png" alt="NRG" class="team-logo"> 0:1</td>
+                    <td><img src="images/team-logos/weibo_gaming_logo.png" alt="Weibo Gaming" class="team-logo">
+                        0:2
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>15.</td>
+                    <td><img src="images/team-logos/team_bds_logo.png" alt="Team BDS" class="team-logo"> Team
+                        BDS
+                    </td>
+                    <td>0-3</td>
+                    <td>0-4</td>
+                    <td><img src="images/team-logos/jd_gaming_logo.png" alt="JD Gaming" class="team-logo"> 0:1
+                    </td>
+                    <td><img src="images/team-logos/mad_lions_logo.png" alt="MAD Lions" class="team-logo"> 0:1
+                    </td>
+                    <td><img src="images/team-logos/dplus_logo.png" alt="Dplus" class="team-logo"> 0:2</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>12.</td>
+                    <td><img src="images/team-logos/team_liquid_logo.png" alt="Team Liquid" class="team-logo">
+                        Team
+                        Liquid</td>
+                    <td>2-3</td>
+                    <td>3-4</td>
+                    <td><img src="images/team-logos/t1_logo.png" alt="T1" class="team-logo"> 0:1</td>
+                    <td><img src="images/team-logos/nrg_logo.png" alt="NRG" class="team-logo"> 0:1</td>
+                    <td><img src="images/team-logos/gam_esports_logo.png" alt="GAM Esports" class="team-logo">
+                        1:2
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <!-- Line Divider -->
+    <div class="line-divider"></div>
+
+    <div class="knockout-container" id="knock-out">
+        <b class="knockout-stage-title">Knockout Stage</b>
+        <ul class="knockout-rule-list">
+            <li>Eight qualifiers from Stage 2 participate</li>
+            <li>Single elimination bracket</li>
+            <li>Matches are best of five</li>
+        </ul>
+        <img class="knockout-img" src="images/knockout-stage.png" alt="Knockout Stage">
+    </div>
+
+    <!-- Footer -->
+    <footer>© 2024 Riot Games. All Rights Reserved.</footer>
+    <!-- JavaScript to handle mobile menu -->
+    <script src="script/script.js"></script>
+</body>
+
+</html>
